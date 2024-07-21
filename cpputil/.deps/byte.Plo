@@ -1,0 +1,14 @@
+byte.lo byte.o: byte.cc ../config.h ../cpputil/byte.hh \
+  /usr/lib/gcc/i586-mandriva-linux-gnu/4.1.1/../../../../include/c++/4.1.1/cstddef \
+  /usr/lib/gcc/i586-mandriva-linux-gnu/4.1.1/include/stddef.h \
+  ../cpputil/types.hh
+
+../config.h:
+
+../cpputil/byte.hh:
+
+/usr/lib/gcc/i586-mandriva-linux-gnu/4.1.1/../../../../include/c++/4.1.1/cstddef:
+
+/usr/lib/gcc/i586-mandriva-linux-gnu/4.1.1/include/stddef.h:
+
+../cpputil/types.hh:

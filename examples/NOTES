@@ -1,0 +1,17 @@
+time sh -c './scramble < /usr/share/dict/words | ./sort'
+time sh -c 'perl scramble.pl /usr/share/dict/words | perl sort.pl'
+
+gcc-3.2
+-------
+0.98user 0.11system 0:05.35elapsed 20%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (652major+910minor)pagefaults 0swaps
+
+gcc-3.0.3
+---------
+2.65user 2.03system 0:06.24elapsed 74%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (594major+858minor)pagefaults 0swaps
+
+perl 5.8.0
+----
+0.89user 0.09system 0:05.40elapsed 18%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (991major+2468minor)pagefaults 0swaps
